@@ -1,8 +1,3 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: prometheus
-
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
@@ -14,8 +9,8 @@ spec:
     namespace: prometheus
   project: default
   source:
-    path: /prometheus
-    repoURL: https://github.com/Sabir-RL/Prometheus---Grafana
+    path: prometheus
+    repoURL: https://github.com/Sabir-RL/Prometheus---Grafana.git
     targetRevision: HEAD
   syncPolicy:
     automated:

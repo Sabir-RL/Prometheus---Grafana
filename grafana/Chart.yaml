@@ -1,0 +1,9 @@
+apiVersion: v2
+name: grafana
+description: A Helm chart for Grafana
+version: 1.0.0
+dependencies:
+  - name: grafana
+    repository: https://grafana.github.io/helm-charts
+    version: 6.20.5
+    condition: grafana.enabled
