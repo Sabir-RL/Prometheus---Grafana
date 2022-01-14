@@ -15,7 +15,7 @@ spec:
   project: default
   source:
     path: /prometheus
-    repoURL: ////////////////
+    repoURL: https://github.com/Sabir-RL/Prometheus---Grafana
     targetRevision: HEAD
   syncPolicy:
     automated:

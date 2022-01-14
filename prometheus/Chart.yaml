@@ -6,4 +6,4 @@ dependencies:
   - name: prometheus
     repository: https://prometheus-community.github.io/helm-charts
     version: 15.0.3
-    condition: jenkins.enabled
+    condition: prometheus.enabled
